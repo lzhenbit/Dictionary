@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T23:02:52.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36 Edg/86.0.622.68" etag="zYbzrsV6JvwxIb8K7nWB" version="13.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-15T23:04:23.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36 Edg/86.0.622.68" etag="vYs5nzsXcjP5G5xDCctQ" version="13.9.8" type="github">
   <diagram id="wGbNQAF3rh7kJaGg-0bd" name="第 1 页">
     <mxGraphModel dx="1108" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
             <mxPoint x="466" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qeY42DRzwTkkw9GAALr9-16" value="点击用户信息备案" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0;entryY=0.244;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qeY42DRzwTkkw9GAALr9-17">
+        <mxCell id="qeY42DRzwTkkw9GAALr9-16" value="点击用户信息备案" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.1;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qeY42DRzwTkkw9GAALr9-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="380" as="sourcePoint" />
             <mxPoint x="470" y="380" as="targetPoint" />
@@ -43,7 +43,7 @@
           <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qeY42DRzwTkkw9GAALr9-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TLXemX-RSQB3tJ_CDlbK-9">
-          <mxGeometry x="45" y="440" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="440" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="TLXemX-RSQB3tJ_CDlbK-10" value=":UserAction" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="40" width="100" height="650" as="geometry" />
@@ -55,7 +55,7 @@
           <mxGeometry x="45" y="320" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qeY42DRzwTkkw9GAALr9-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TLXemX-RSQB3tJ_CDlbK-10">
-          <mxGeometry x="45" y="440" width="10" height="140" as="geometry" />
+          <mxGeometry x="45" y="440" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="TLXemX-RSQB3tJ_CDlbK-11" value=":UserProcess" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="40" width="100" height="650" as="geometry" />
@@ -191,6 +191,12 @@
         <mxCell id="qeY42DRzwTkkw9GAALr9-34" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="qeY42DRzwTkkw9GAALr9-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qeY42DRzwTkkw9GAALr9-39" value="返回修改结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="TLXemX-RSQB3tJ_CDlbK-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="620" as="sourcePoint" />
+            <mxPoint x="390" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
